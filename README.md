@@ -2,7 +2,7 @@
 
 A simple vulnerable Go application used for demonstration purposes.
 
-![Snyk](https://github.com/garethr/snykly/workflows/Snyk/badge.svg)
+![Go](https://github.com/garethr/snykly/workflows/Go/badge.svg) ![Snyk](https://github.com/garethr/snykly/workflows/Snyk/badge.svg)
 
 This repository gratuitously uses [Bazel](https://bazel.build/) for the build process. This includes:
 

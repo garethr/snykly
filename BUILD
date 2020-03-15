@@ -68,6 +68,7 @@ go_binary(
 
 go_test(
     name = "snykly_test",
+    size = "small",
     srcs = ["main_test.go"],
     embed = [":go_default_library"],
     deps = [
