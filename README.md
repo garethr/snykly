@@ -26,6 +26,6 @@ kubectl apply -f https://raw.githubusercontent.com/garethr/snykly/master/deploym
 
 ## Vulnerable?
 
-The application, and the associated image, have a few known vulnerabilities. We can use Snyk to detect them. In this case we're testing the image uploaded to GCR, as well as catching Go and configuration issues by importing this source repository into Snyk.
+The application, and the associated image, have a few known vulnerabilities. We can use Snyk to detect them. In this case we're testing the image uploaded to GCR, testing the Go code using GitHub Actions and checking for configuration issues by importing the source repository into Snyk.
 
 ![Snykly in Snyk](assets/snyk.png)
