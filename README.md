@@ -1,4 +1,4 @@
-# Snykier
+# Snykly
 
 A simple vulnerable Go application used for demonstration purposes.
 
