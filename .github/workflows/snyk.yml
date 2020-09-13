@@ -15,7 +15,7 @@ jobs:
       with:
         go-version: "1.13"
     - name: Snyk version
-      run: echo ${{ steps.snyk.outputs.version }}
+      run: echo "${{ steps.snyk.outputs.version }}"
     - name: Snyk monitor 
       run: snyk monitor --project-name=garethr/snykly
       env:
